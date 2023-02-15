@@ -10,13 +10,6 @@ To compile using Maven
 -   Method 2 - Open Command Prompt, navigate to project folder. Type mvn clean javafx:run.
     <br><br>
 
-#### Where your Javadoc documentation is stored (the path to the directory)
-
--   Note: view is in javaDocs need to search for it manually.
--   C:\Users\wilva\Desktop\University\Maintainable Software\CW\dms-coursework\javadocs
--   Relative path is just : javadocs
-    <br><br>
-
 #### A list of features that are implemented and are working properly,
 
 -   Increase Ball Count. In the DebugMenu ball count can be increased and decreased.
