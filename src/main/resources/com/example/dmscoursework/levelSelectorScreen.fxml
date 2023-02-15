@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="450.0" maxWidth="600.0" minHeight="450.0" minWidth="600.0" prefHeight="0.0" prefWidth="0.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dmscoursework.Controller.fxml.LevelSelector">
+   <children>
+      <ImageView fx:id="m_BackgroundImage" fitHeight="451.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="false" />
+      <Button fx:id="levelOneButton" layoutX="55.0" layoutY="46.0" mnemonicParsing="false" onAction="#SetLevelOne" text="Level 1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="myLabel" alignment="CENTER" prefHeight="18.0" prefWidth="600.0" text="Level Selection">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="levelTwoButton" layoutX="250.0" layoutY="46.0" mnemonicParsing="false" onAction="#SetLevelTwo" text="Level 2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="levelThreeButton" layoutX="457.0" layoutY="46.0" mnemonicParsing="false" onAction="#SetLevelThree" text="Level 3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="levelSixButton" layoutX="458.0" layoutY="247.0" mnemonicParsing="false" onAction="#SetLevelSix" text="Level 6">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="levelFourButton" layoutX="56.0" layoutY="247.0" mnemonicParsing="false" onAction="#SetLevelFour" text="Level 4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="levelFiveButton" layoutX="251.0" layoutY="247.0" mnemonicParsing="false" onAction="#SetLevelFive" text="Level 5">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="m_ImageView1" fitHeight="124.0" fitWidth="170.0" layoutX="18.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="m_ImageView4" fitHeight="124.0" fitWidth="170.0" layoutX="19.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="m_ImageView2" fitHeight="124.0" fitWidth="170.0" layoutX="209.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="m_ImageView3" fitHeight="124.0" fitWidth="170.0" layoutX="416.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="m_ImageView6" fitHeight="124.0" fitWidth="170.0" layoutX="417.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="m_ImageView5" fitHeight="124.0" fitWidth="170.0" layoutX="210.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="-5.0" layoutY="406.0" mnemonicParsing="false" onAction="#ReturnStartScreen" prefHeight="46.0" prefWidth="606.0" text="Return to Start Screen">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

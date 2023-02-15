@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="450.0" maxWidth="600.0" minHeight="450.0" minWidth="600.0" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dmscoursework.Controller.fxml.MusicScreen">
+   <children>
+      <ImageView fx:id="m_BackgroundImage" fitHeight="451.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="false" />
+      <Label fx:id="songLabel" alignment="CENTER" layoutX="1.0" prefHeight="95.0" prefWidth="600.0" text="MUSIC SETTINGS">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Button fx:id="playButton" layoutX="19.0" layoutY="138.0" mnemonicParsing="false" onAction="#PlayMedia" prefHeight="54.0" prefWidth="78.0" text="Play" />
+      <Button fx:id="pauseButton" layoutX="125.0" layoutY="138.0" mnemonicParsing="false" onAction="#PauseMedia" prefHeight="54.0" prefWidth="78.0" text="PAUSE" />
+      <Button fx:id="resetButton" layoutX="231.0" layoutY="138.0" mnemonicParsing="false" onAction="#ResetMedia" prefHeight="54.0" prefWidth="78.0" text="RESET" />
+      <Button fx:id="previousButton" layoutX="58.0" layoutY="268.0" mnemonicParsing="false" onAction="#PreviousMedia" prefHeight="54.0" prefWidth="78.0" text="PREVIOUS" />
+      <Button fx:id="nextButton" layoutX="183.0" layoutY="268.0" mnemonicParsing="false" onAction="#NextMedia" prefHeight="54.0" prefWidth="78.0" text="NEXT" />
+      <Slider fx:id="m_VolumeSlider" layoutX="363.0" layoutY="191.0" majorTickUnit="25.0" max="100.0" prefHeight="100.0" prefWidth="250.0" rotate="-90.0" showTickMarks="true" value="50.0" />
+      <Label alignment="CENTER" layoutX="329.0" layoutY="210.0" prefHeight="46.0" prefWidth="138.0" text="VOLUME">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Button layoutX="-9.0" layoutY="388.0" mnemonicParsing="false" onAction="#ReturnStartScreen" prefHeight="67.0" prefWidth="610.0" text="Return to Start Screen">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

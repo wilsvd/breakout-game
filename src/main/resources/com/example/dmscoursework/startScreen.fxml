@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="myPane" maxHeight="450.0" maxWidth="600.0" minHeight="450.0" minWidth="600.0" prefHeight="0.0" prefWidth="0.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dmscoursework.Controller.fxml.StartController">
+   <children>
+      <ImageView fx:id="m_BackgroundImage" fitHeight="451.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="false" />
+      <Button fx:id="playButton" layoutX="67.0" layoutY="130.0" mnemonicParsing="false" onAction="#PlayGame" prefHeight="51.0" prefWidth="192.0" text="Play!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="scoreButton" layoutX="66.0" layoutY="232.0" mnemonicParsing="false" onAction="#ShowScores" prefHeight="51.0" prefWidth="192.0" text="Leaderboard!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="176.0" layoutY="26.0" text="BREAKOUT!">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="sunsetButton" layoutX="308.0" layoutY="194.0" mnemonicParsing="false" onAction="#SetSunsetTheme" prefHeight="51.0" prefWidth="155.0" text="Sunset Theme">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="oceanButton" layoutX="308.0" layoutY="258.0" mnemonicParsing="false" onAction="#SetOceanTheme" prefHeight="51.0" prefWidth="155.0" text="Ocean Theme">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="candyButton" layoutX="308.0" layoutY="324.0" mnemonicParsing="false" onAction="#SetCandyTheme" prefHeight="51.0" prefWidth="155.0" text="Candy Theme">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="selectLevelButton" layoutX="308.0" layoutY="130.0" mnemonicParsing="false" onAction="#ShowLevelSelector" text="Select Level">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="myMusic" layoutX="66.0" layoutY="324.0" mnemonicParsing="false" onAction="#ShowMusicSettings" prefHeight="51.0" prefWidth="192.0" text="Music Settings">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
